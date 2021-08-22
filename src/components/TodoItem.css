@@ -1,0 +1,37 @@
+input {
+    display: inline-block;
+}
+
+.TodoItem {
+    margin: 10px auto;
+    background-color: #40739e;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    color: white;
+    position: relative;
+}
+
+.TodoItem:hover {
+    background-color: #4479a5;
+}
+
+.TodoItem:hover .remove {
+    visibility: visible;
+}
+
+.complete {
+    color: #ffffff9a;
+}
+
+.remove {
+    display: inline;
+    position: absolute;
+    right: 14px;
+    visibility: hidden;
+}

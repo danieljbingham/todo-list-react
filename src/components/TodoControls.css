@@ -1,0 +1,26 @@
+input {
+    padding: 12px;
+    margin-right: 12px;
+    flex-grow: 1;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 12px 24px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #3a4451;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #424e5d;
+}
+
+.TodoControls {
+    display: flex;
+}
